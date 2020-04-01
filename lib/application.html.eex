@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="application/javascript" defer="defer" src="js/application.js"></script>  
+    <title>
+      Elixir WebSocket App
+    </title>
+  </head>
+  <body>
+    <a id="site-title" href="/" title="Elixir" rel="Home">
+            <img class="logo" src="https://elixir-lang.org/images/logo/logo.png" alt="Elixir Logo">
+    </a>
+    <main id="main"></main>
+    <br>
+    <form>
+      <input id="message" type="text">
+      <br>
+      <br>
+      <input type="submit" value="send" id="button">
+    </form>
+  </body>
+</html>
